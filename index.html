@@ -178,12 +178,6 @@ h1 span{display:block;background:linear-gradient(100deg,var(--navy) 20%,var(--go
     box.appendChild(b);
   }
 })();
-// TikTok conversion events on button clicks
-['wa','call'].forEach(function(id){
-  document.getElementById(id).addEventListener('click',function(){
-    try{ if(window.ttq){ ttq.track('Contact'); ttq.track('ClickButton'); } }catch(e){}
-  });
-});
 </script>
 </body>
 </html>
